@@ -1,0 +1,36 @@
+/*
+Theme Name:Sera Noticia
+Theme URL:www.seranoticia.cl
+Description:Tema Creado exclusivamente para el sitio "www.seranoticia.cl"
+Version:1.0
+Author:Ignacio Guajardo Urzúa
+Author URI:www.ignacioguajardo.cl
+*/
+
+
+
+@import url("css/reset2.css");
+
+@import url("css/normalize.css");
+@import url("css/fuentes.css"); 
+@import url("css/master-4.css");
+@import url("css/paginacion.css");
+/*@import url("css/master-3.css");*/
+@import url("css/gradiente.css");
+/*@import url("css/temp_diagramacion.css");*/
+@import url("css/comentarios.css");
+@import url("css/titulos-negro.css");
+@import url("css/nggallery-MyStyle.css");
+@import url(http://fonts.googleapis.com/css?family=Rouge+Script|Economica:400,700|Rosarivo|Ropa+Sans|Ubuntu|Flamenco|Trochut|Geo|Francois+One|Coda|Maven+Pro|Gruppo|Cinzel+Decorative);
+
+
+/*
+NUEVAS FONT-FAMILY 
+
+font-family: 'Dosis', sans-serif;
+font-family: 'Ropa Sans', sans-serif;
+font-family: 'Coda', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Homenaje', sans-serif;
+
+*/

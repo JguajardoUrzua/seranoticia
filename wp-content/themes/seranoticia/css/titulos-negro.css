@@ -1,0 +1,48 @@
+/*TITULOS*/
+.titulo{
+  width: 100%;
+  /*line-height: 50px; */
+  margin-bottom: 10px; 
+  margin-top: 5px;
+  text-align: left;
+  background-color: black;
+  border-radius: 0 5px 0 0;
+}
+
+.titulo h2{
+    display: inline-block;
+    font-family:  Arial,sans-serif;
+    
+    margin-top: 5px;
+    font-size: 1.3em;
+    /*text-shadow: black 1px 1px;*/
+ 
+}
+.titulo img#imagen_titulo{
+   width: 45px;
+   float: left;
+   margin-right: 5px;
+   margin-top: 0px;
+} 
+.titulo h2#titulo-normal {
+    font-weight: 500;
+    color: white;
+}
+.titulo h2#titulo-negrita {
+     font-weight: 500;
+     margin: 0;
+     margin-left: -3px;
+}
+.titulo p#sub-titulo{
+    font-family: Arial,sans-serif;
+    color: white;
+    font-size: 0.8em;
+    padding: 0 0 0px 5px; 
+
+}
+.titulo span{
+    display: block;
+    height: 5px;
+    width: 100%;  
+    margin-top: 2px;
+}

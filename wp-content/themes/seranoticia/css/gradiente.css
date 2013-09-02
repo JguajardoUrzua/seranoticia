@@ -1,0 +1,40 @@
+.verde{
+	background: #067f22; /* Old browsers */
+	
+}
+.verde-texto{
+	color: #067f22;
+}
+.verde-borde{
+	border-bottom:solid 5px #067f22;
+/*	border-top:solid 5px #327017;
+*/
+}
+
+.rojo{
+	background : #ff0000 ;
+}
+.rojo-texto{
+	color : #ff0000 ;
+}
+.rojo-borde{
+	border-bottom: solid 5px #ff0000 ;
+}
+
+.azul{
+	background: #0078ff;
+}
+.azul-texto{
+	color : #0078ff;
+}
+.azul-borde{
+	border-bottom: solid 5px #0078ff;
+}
+
+.color-titulo{
+	background-color: white;
+}
+.gris-claro{
+	background-color: #dad9d9;
+}
+

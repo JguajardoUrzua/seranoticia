@@ -1,0 +1,23 @@
+#comentarios{
+	width: 100%;
+	border-top: dotted 2px #cfcfcf;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+
+
+#comentario_wp{
+	width: 340px;
+	border-right: dotted 2px #cfcfcf;
+	padding-right: 10px;
+}
+
+#comentario_fb{
+	float: right;
+	width: 345px !important;
+	vertical-align: top;
+}
+#comentario_fb iframe{ 
+		width: 345px !important;
+}

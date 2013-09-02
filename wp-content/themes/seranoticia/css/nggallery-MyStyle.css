@@ -1,0 +1,20 @@
+.ngg-gallery-thumbnail-box{
+	width: 150px;
+	height: 180px;
+	background: #cfcfcf;
+	margin: 0 10px 10px 0 !important;
+	border-bottom: solid 8px rgb(124, 124, 124);
+}
+.ngg-gallery-thumbnail{
+float: none !important;
+}
+.ngg-gallery-thumbnail-box .ngg-gallery-thumbnail img{
+	display: inline-block; !important;
+	 
+	margin: 0 auto;
+	border: none;
+	padding: 0;
+}
+.ngg-gallery-thumbnail-box .ngg-gallery-thumbnail span{
+ 	
+}

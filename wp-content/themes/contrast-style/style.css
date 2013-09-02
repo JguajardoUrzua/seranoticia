@@ -1,0 +1,626 @@
+/*  
+Theme Name: Contrast Style
+Theme URI: http://wordpress.imblickpunkt.com
+Description: SEO Optimized Portal Layout. The Text Element are white for better reading. The Code is W3C Valid and Clean. You can easy modify alot of thinks. For sure the Theme is Widget ready. If you find bugs plz visit http://wordpress.imblickpunkt.com and leave a MSG - i will fix it asap.
+Tags: seo, w3c, valid, easy, three columns, Right sidebar, left sidebar, fixed width, widgets, easy customization, widget ready, valid css, valid xhtml. games
+Version: 1.1
+Author: Schalkie
+Author URI: http://imblickpunkt.com
+License :  GNU General Public License (GPL) version 3
+
+	
+ */
+
+hmtl{
+     }
+
+body
+	{
+	padding:0px;
+	margin:0px;
+	background-color:#b0bdc5;
+	background-image:url(images/page-bg.gif);
+	background-repeat:repeat-x;
+	font-family:verdana, arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#333;
+     }
+/*--------------------DIVs------------------------------*/
+
+div#pagecenter
+	{
+	margin: 0 auto;
+	width: 980px;
+	background-color:#3b4d56;
+	}
+	
+div#header
+	{
+	height:70px;
+	background-color:#223136;
+	background-image:url(images/header.gif);
+	padding:5px;
+	text-align:right;
+	color:#FFFFFF;
+	}
+	
+div#sitename
+	{
+	margin-left:15px;
+	margin-top:15px;
+	font-size:24px;
+	float:left;
+	text-align:left;
+	}
+	
+div#top-navi
+	{
+	background-image:url(images/top-navi-bg.gif);
+	height:29px;
+	margin:auto;
+	}
+	
+div.top-navi-links
+	{
+	margin-top:6px;
+	padding-left:12px;
+	padding-right:12px;
+	float:left;
+	font-size:12px;
+	font-weight:900;
+	
+	}
+	
+div.left-navi-blog
+	{
+	width:200px;
+	margin-right:10px;
+	float:left;
+	}
+	
+div.left-widget
+	{
+	margin-top:1px;
+	width:200px;
+	margin-top:1px;
+	background-color:#000000;
+	padding-bottom:4px;
+	}
+	
+div#leftbarfooter
+	{
+	background-image:url(images/leftbar-footer.gif);
+	height:15px;
+	}
+	
+div#rightbarfooter
+	{
+	background-image:url(images/rightbar-footer.gif);
+	height:15px;
+	}
+	
+div.center-blog
+	{
+	width:500px;
+	margin-right:10px;
+	float:left;
+	margin-top:10px;
+	}
+	
+div.post-title
+	{
+	margin:0px;
+	padding:5px;
+	height:16px;
+	background-image:url(images/title-header.gif);
+	}
+	
+div.post-content
+	{
+	background-color:#FFFFFF;
+	margin:0px;
+	padding:5px;
+	text-align:justify;
+	border-top:#000000 1px solid;
+	border-bottom:#000000 1px solid;
+	}
+	
+div.post-meta
+	{
+	color:#FFFFFF;
+	margin:0px;
+	padding:4px;
+	height:14px;
+	margin-bottom:10px;
+	background-image:url(images/post-footer.gif);
+	}
+	
+div.single-meta
+	{
+	border:#444 1px dashed;
+	padding:2px;
+	margin:5px;
+	margin-top:10px;
+	color:#202D32;
+	background-color:#B0BDC5;
+	font-size:10px;
+	}
+	
+div.main-meta
+	{
+	border:#ccc 1px dashed;
+	padding:2px;
+	margin:5px;
+	margin-top:10px;
+	color:#666;
+	background-color:ddd;
+	font-size:10px;
+	}
+	
+div.commentblog
+	{
+	background-color:#B0BDC5;
+	margin:0px;
+	padding:5px;
+	text-align:justify;
+	border-top:#000000 1px solid;
+	border-bottom:#000000 1px solid;
+	}
+
+div.singlecommentborder
+	{
+	float:left;
+	}
+	
+div.gravatorblog
+	{
+	float:left;
+	width:70px;
+	}
+	
+div.singlecomment
+	{
+	float:left;
+	width:410px;
+	}
+	
+div.right-navi-blog
+	{
+	width:260px;
+	float:left;
+	}
+	
+div.right-widget
+	{
+	margin-top:1px;
+	width:255px;
+	margin-top:1px;
+	background-color:#000000;
+	padding-bottom:4px;
+	padding-right:5px;
+	}
+	
+div.widget-header
+	{
+	color:#FFFFFF;
+	font-weight:bold;
+	padding-left:10px;
+	padding-top:3px;
+	}
+	
+div.clear
+	{
+    clear: left;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+	}
+	
+div#footer
+	{
+	background-image:url(images/top-navi-bg.gif);
+	height:19px;
+	text-align:center;
+	padding:5px;
+	color:#FFFFFF;
+	}
+
+/*--------------------textgestaltung--------------------*/
+
+p{
+margin:0px;
+     }
+
+h1,h2,h3,h4,h5,h6{
+color:#FFFFFF;
+margin:0px;
+padding:0px;
+font-size:11px;
+     }
+
+
+acronym, abbr, span.caps {
+	cursor: help;
+	}
+
+acronym, abbr {
+	
+	}
+
+blockquote {
+	
+	}
+
+blockquote cite {
+	
+	}
+
+
+
+hr {
+	
+	}
+
+
+
+
+
+dl{
+     }
+     dt{
+          }
+          dd{
+          }
+
+ul
+	{
+	margin:0px;
+	margin-left:12px;
+	list-style:none;
+	padding-left:8px;
+     }
+ol{
+     }
+     li
+	 {
+	list-style:square;
+	margin-top:3px;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#810000;
+      }
+
+    ul ul{
+         }
+
+blockquote{
+     }
+     blockquote p{
+          }
+
+code{
+     }
+
+pre{
+     }
+
+b, strong,i,em {
+     }
+
+img{
+	border:1px solid #B0BDC5;
+	padding:3px;
+	margin:2px;
+     }
+
+address {
+     }
+	 
+img.ogtzuq{
+border:0px;
+color:#3B4D56;
+	}
+
+/*--------------------linkgestaltung--------------------*/
+
+
+a {
+	color:#FFFFFF;
+     }
+a:link { 
+color:#FFFFFF;
+     }
+a:visited { 
+color:#FFFFFF;
+     }
+a:link:focus{ 
+color:#FFFFFF;
+     }
+a:link:hover, 
+a:visited:hover {
+color:#FF0000; 
+    }
+a:link:active, 
+a:visited:active {
+     }
+
+.post-content a{
+color:#333; 
+     }
+.post-content a:link
+	{
+	color:#333; 
+     }
+.post-content a:visited{ color:#333; 
+     }
+.post-content a:link:active, 
+.post-content a:visited:active{color:#333; 
+      }
+	  
+#single-meta a{
+color:#333; 
+     }
+#single-meta a:link
+	{
+	color:#333; 
+     }
+#single-meta a:visited{ color:#333; 
+     }
+#single-meta a:link:active, 
+#single-meta a:visited:active{color:#333; 
+      }
+
+.commentblog a{
+color:#333; 
+     }
+.commentblog a:link
+	{
+	color:#333; 
+     }
+.commentblog a:visited{ color:#333; 
+     }
+.commentblog a:link:active, 
+.commentblog a:visited:active{color:#333; 
+      }
+
+/*--------------------bilder als links--------------------*/
+a img{
+	border:1px solid #B0BDC5;
+	padding:3px;
+	margin:2px;
+     }
+a:link img { 
+     }
+a:visited img { 
+     }
+a:link:active img, 
+a:visited:active img {
+      }
+	  
+a:link:hover img, 
+a:visited:hover img {
+	border:1px solid #B0BDC5;
+	padding:3px;
+	margin:2px;
+	background-color:#B0BDC5;
+    }
+
+/*--------------------smilies im text--------------------*/
+
+body img.wp-smiley{
+     }
+
+
+
+/*--------------------der weiterlesen link--------------------*/
+
+.more-link{
+     }
+
+/*--------------------die seiten wenn es mehrere gibt--------------------*/
+p.serif{
+     }
+
+/*--------------------suche--------------------*/
+
+#searchform{
+     }
+
+input#s{
+     }
+
+input#searchsubmit{
+     }
+
+
+
+
+/*--------------------Kommentare--------------------*/
+.alt {
+	 
+	}
+
+.commentlist {	padding:0px;
+	margin:0px;
+	 
+	}
+
+
+.nocomments {
+text-align:justify;
+	 
+	}
+ 
+.commentlist li {
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	color:#111;
+	 
+	}
+
+.commentlist cite, 
+.commentlist cite a {
+	 
+	}
+
+.commentlist p {
+text-align:justify;
+	padding:0px;
+	padding-top:5px;
+
+	 
+	}
+
+#commentform p {
+	 
+	}
+
+.commentmetadata {
+	 
+	}
+
+#commentform input {
+border:1px solid #333;
+margin-bottom:3px;
+	}
+
+#commentform textarea {
+	border:1px solid #333;
+	width:488px;
+	}
+
+#commentform #submit {
+	 
+	}
+
+/*--------------------fuer den wp kalender--------------------*/
+ 
+#wp-calendar th {
+	 
+	}
+
+
+#wp-calendar {
+	empty-cells: show;
+	
+	}
+
+#wp-calendar #next a {
+	
+	}
+
+#wp-calendar #prev a {
+	
+	}
+
+#wp-calendar a {
+	
+	}
+
+#wp-calendar caption {
+	
+	}
+
+#wp-calendar td {
+	
+	}
+
+#wp-calendar td.pad:hover { 
+      }
+
+
+/*-------------------- widgets---------------------*/
+h2.widgettitle{
+     }
+.widget {
+     }
+
+/*--------------------Archive--------------------*/
+
+li#archives{
+     }
+
+.widget_archives{
+     }
+
+/*--recent posts--*/
+
+
+li#recent-posts{
+     }
+
+.widget_recent_entries{
+     }
+
+
+
+/*--------------------text widget--------------------*/
+li.widget_text{
+     }
+
+/*--id haengt von der nummer des text widgets ab*/
+li#text-4{
+     }
+div.textwidget{
+     }
+
+/*--------------------links blogroll--------------------*/
+
+li#links{
+     }
+
+.widget_links{
+     }
+
+
+/*--------------------kategorien--------------------*/
+
+li#categories{
+     }
+
+.widget_categories{
+     }
+
+/*-------------------WP Requires------------------*/
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}

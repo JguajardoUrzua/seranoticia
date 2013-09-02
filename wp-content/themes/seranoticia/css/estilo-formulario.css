@@ -1,0 +1,139 @@
+	 body {
+			font: 1em Lucida Grande, 'Trebuchet MS', verdana, sans-serif;
+			font-size: 76%;}
+					
+	#form {
+	      
+		  
+		  width:450px !important;
+		  padding:14px 0 0 0 !important;
+	}			/*MIS CSS*/
+			
+	#form label {
+		display:block;
+		font-weight:bold;
+		text-align:right;
+		width:190px;
+		float:left;
+		
+	}	
+	#form label span{
+		color:#666666;
+		display:block;
+		font-size:11px;
+		font-weight:normal;
+		text-align:right;
+		width:190px;
+		
+	}	
+
+	h2#titulo_principal{
+			font-size: 2em;
+			width: 100%;
+			color: white;
+			margin: 2em 0 0.5em 0;
+			padding: 0;
+	}
+	#form h2{
+			font-size: 2em;
+			width: 100%;
+			color: white;
+			margin: 0 0 0.5em 0;
+			padding: 0;}
+
+	#form h3.subtitulos{ 
+			color: black;
+			display: table;
+			width: 100%;
+			padding: 5px;
+			font-size: 1.2em; 
+			margin-bottom: 10px;
+			border-bottom: solid thin #cfcfcf;
+			}
+
+
+	#form .campo {
+			float:left;
+			font-size: 1.5em;
+		 	border-radius:7px; 
+			font-size:12px;
+			padding:4px 2px; 
+			width:200px;
+			margin:2px 0 20px 10px;
+			}
+    
+ 
+
+	#form .error {
+			border: 1px solid #F00;
+		 
+			
+			float:left;
+			font-size: 1.5em;
+		 	border-radius:7px; 
+			font-size:12px;
+			padding:4px 2px; 
+			width:200px;
+			margin:2px 0 20px 10px;
+			}
+ 
+
+	#form .com {
+			float: left;
+			border: 1px solid #999;
+		
+			margin:2px 0 20px 10px;			height: 5em;
+			font: 1.5em Lucida Grande, 'Trebuchet MS', verdana, sans-serif;
+		 	border-radius:7px;
+			font-size:12px;
+			padding:4px 2px; 
+			width:200px;
+			max-width: 200px;
+		
+			}
+
+	#form .com-error {
+			border: 1px solid #F00;
+						
+			float: left;
+		
+			margin:2px 0 20px 10px;			height: 5em;
+			font: 1.5em Lucida Grande, 'Trebuchet MS', verdana, sans-serif;
+		 	border-radius:7px;
+			font-size:12px;
+			padding:4px 2px; 
+			width:200px;
+			max-width: 200px;		
+	}
+    #form .boton-subirArchivo {
+			border: 2px solid #999;
+			padding: 0.3em;
+			border-radius:5px;
+			font-size: 1.2em;
+			width: 100%;
+		}
+	  #form .boton {
+			border: 2px solid #999 !important;
+			padding: 0.3em !important;
+			border-radius:5px !important;
+			font-size: 1.2em !important;
+			width: 5em !important;
+ 
+		}	
+
+
+	 #error {
+		  border: 1px dashed #F00;
+		  background-color: #FFF;
+		  padding: 5px;}
+
+	 #ok {
+	    border: 1px dashed #060;
+	    background-color:#FFF;
+	    padding: 5px;}	
+	    
+	    
+	   .encabezado p, h2.titulo-publicaAqui, h3.titulo-publicaAqui{
+		   
+		   color: #a64372;
+	   /*}*/
