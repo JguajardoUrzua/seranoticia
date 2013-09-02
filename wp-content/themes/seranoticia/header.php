@@ -51,14 +51,7 @@
  	<script type="text/javascript" src="<?php bloginfo('template_url')?>/js/prefixfree.min.js" ></script> 
  
 	<script type="text/javascript">
-	$(document).ready(function(){
 
-		$("a").click(function(){
-				alert("jquey funciona!!");
-
-		});
-
-	});
 
 	</script>
 	<script type="text/javascript">
