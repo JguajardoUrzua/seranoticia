@@ -1,6 +1,6 @@
 <?php get_header();?>
 			
- 
+ <!-- modificado en windows -->
 <!-- Archivo principal del tema, modificado 2-->
  
 		<section id="main">
